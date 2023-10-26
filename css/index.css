@@ -1,0 +1,35 @@
+/*------------------------------   Tags   ------------------------------*/
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px dashed black;
+}
+
+h3{
+    padding-bottom: 25px;
+}
+
+/*------------------------------   Classes   ------------------------------*/
+
+.backgroundPage {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px 50px;
+}
+
+.noticiaExterna {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+    text-align: justify;
+}
+
+.noticiaExterna img{
+    border: none;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+
+.saibaMais{
+    color: black;
+}
