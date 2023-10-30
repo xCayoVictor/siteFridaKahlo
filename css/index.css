@@ -8,13 +8,6 @@ h1{
 
 /*------------------------------   Classes   ------------------------------*/
 
-.backgroundPage {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 20px 50px 0px 50px;
-}
-
 .noticiaExterna {
     display: flex;
     flex-direction: row;
