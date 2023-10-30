@@ -54,6 +54,13 @@ footer{
     margin-left: 32px;
 }
 
+.backgroundPage {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px 50px 0px 50px;
+}
+
  .footerExterna {
     background-color: #101026;
     display: flex;
