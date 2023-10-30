@@ -16,6 +16,7 @@ a:hover{
 }
 
 main{
+    display: flex;
     background-color: #23232e;
     padding: 10px 180px;
 }
@@ -53,22 +54,18 @@ footer{
     margin-left: 32px;
 }
 
- .divExterna {
+ .footerExterna {
     background-color: #101026;
     display: flex;
     flex-direction: row;
  }
 
- .divInterna{
+ .footerInterna{
     margin-left: 380px;
     padding-top: 20px;
  }
 
- .divGit{
-    margin-top: -20px;
- }
-
- .footerCopyright {
+  .footerCopyright {
     display: flex;
     justify-content: center;
     background-color: #101026;
