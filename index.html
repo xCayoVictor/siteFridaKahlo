@@ -4,112 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/fridaKahloFavicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/index.css">
     <title>Início</title>
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <a class="logo" href="/index.html">Frida Kahlo</a>
-            <ul class="navList">
-                <li><a href="/pages/biografia.html">Biografia</a></li>
-                <li><a href="/pages/obras.html">Suas Obras</a></li>
-                <li><a href="/pages/contato.html">Contato</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg menu navbar-dark bg-dark">
+            <div class="container-lg">
+                <img src="/images/fridaKahloFavicon.png" alt="logo com imagem de Frida Kahlo">
+                <a class="logo navbar-brand" href="/index.html">Frida Kahlo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active ps-3 me-3" aria-current="page" href="/index.html">Início</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 me-3" aria-current="page" href="/pages/biografia.html">Biografia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 me-3 " href="/pages/obras.html">Suas Obras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3" href="/pages/contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <div class="backgroundPage">
+    <main class="pt-3 pb-3">
+        <div class="container-lg backgroundPage" >
             <h1>Noticias</h1>
 
-            <div class="noticiaExterna">
-                <div>
-                    <img src="/images/fridaFrases.jpg" alt="Frida kahlo pintando" height="250px" width="388px">
-                </div>
+            <div class="container-lg">
+                <div class="row">
+                    <div class="text-center col-lg-5 col-12 mt-4 ">
+                        <img src="/images/fridaFrases.jpg" alt="Frida kahlo pintando" height="250px" width="388px">
+                    </div>
 
-                <div>
-                    <a target="_blank" class="saibaMais" href="https://capricho.abril.com.br/comportamento/frases-da-frida-kahlo-sobre-os-misterios-da-vida-e-do-amor/">
-                        <h3>16 frases da Frida Kahlo sobre os mistérios da vida e do amor</h3>
-                    </a>
-
-                    <span>
-                        Além de uma grande pintora autorretratista, Magdalena Carmen Frida Kahlo y Calderón escrevia textos que, segundo ela,
-                        também nada tinham de surrealismo, pois expressavam a realidade nua e crua. Nascida em 6 de julho de 1907, em Coyoacán,
-                        no México, aos seis anos recebeu o diagnostico de poliomielite. Durante toda a sua breve, mas extensa, vida, Kahlo foi
-                        assombrada pela doença.                     
-                    </span>
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="noticiaExterna">
-                <div>
-                    <img src="/images/fridaBarbie.jpg" alt="Frida kahlo versão barbie" height="250px">
-                </div>
-
-                <div>
-                    <a target="_blank" class="saibaMais" href="https://capricho.abril.com.br/comportamento/venda-da-barbie-inspirada-em-frida-kahlo-e-proibida-no-mexico/">
-                        <h3>Venda da Barbie inspirada em Frida Kahlo é proibida no México</h3>
-                    </a>
-
-                    <span>
-                        Em março deste ano, para comemorar o Dia Internacional da Mulher, a Mattel lançou uma coleção de novas Barbies
-                        empoderadas. Entre as personagens, estavam Amelia Earhart, Katherine Johnson e Frida Kahlo. A previsão era de que a
-                        boneca inspirada na artista mexicana chegasse ao Brasil custando R$ 249,99.
-                    </span>
+                    <div class="col-lg-7 col-12 pe-3 mt-4 ">
+                        <a target="_blank" class="saibaMais" href="https://capricho.abril.com.br/comportamento/frases-da-frida-kahlo-sobre-os-misterios-da-vida-e-do-amor/">
+                            <h3 class="mb-4 col subtitulo">16 frases da Frida Kahlo sobre os mistérios da vida e do amor</h3>
+                        </a>
+                        <div class="col">
+                            <p>
+                                Além de uma grande pintora autorretratista, Magdalena Carmen Frida Kahlo y Calderón escrevia textos que, segundo ela,
+                                também nada tinham de surrealismo, pois expressavam a realidade nua e crua. Nascida em 6 de julho de 1907, em Coyoacán,
+                                no México, aos seis anos recebeu o diagnostico de poliomielite. Durante toda a sua breve, mas extensa, vida, Kahlo foi
+                                assombrada pela doença.                     
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <hr>
 
-            <div class="noticiaExterna">
-                <div>
-                    <img src="/images/fridaCensura.jpg" alt="Frida kahlo versão barbie com censura nos olhos" height="250px">
-                </div>
+            <div class="container-lg">
+                <div class="row">
+                    <div class="text-center col-lg-5 col-12  mt-4 ">
+                        <img src="/images/fridaBarbie.jpg" alt="Frida kahlo versão barbie" height="250px">
+                    </div>
 
-                <div>
-                    <a target="_blank" class="saibaMais" href="https://capricho.abril.com.br/comportamento/atriz-lamenta-criacao-de-barbie-frida-kahlo-como-puderam/">
-                        <h3>Atriz lamenta criação de Barbie Frida Kahlo: ‘como puderam?’</h3>
-                    </a>
-
-                    <span>
-                        Em 2002, Salma Hayek deu vida à personagem Frida Kahlo no filme Frida. O longa foi bastante aclamado pela crítica e
-                        ganhou, em 2003, o Oscar de Melhor Maquiagem e Penteados, e rendeu à mexicana, no mesmo ano, o prêmio de Melhor Atriz no
-                        Imagen Awards. Logo, parece que Salma pode se manifestar sobre a polêmica do momento: a criação e a comercialização da
-                        Barbie Frida Kahlo.
-                    </span>
+                    <div class="col-lg-7 col-12 pe-3 mt-4 ">
+                        <a target="_blank" class="saibaMais" href="https://capricho.abril.com.br/comportamento/frases-da-frida-kahlo-sobre-os-misterios-da-vida-e-do-amor/">
+                            <h3 class="mb-4 col subtitulo">Venda da Barbie inspirada em Frida Kahlo é proibida no México</h3>
+                        </a>
+                        <div class="col">
+                            <p>
+                                Em março deste ano, para comemorar o Dia Internacional da Mulher, a Mattel lançou uma coleção de novas Barbies
+                                . Entre as personagens, estavam Amelia Earhart, Katherine Johnson e Frida Kahlo. A previsão era de que a
+                                boneca inspirada na artista mexicana chegasse ao Brasil custando R$ 249,99.                   
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <hr>
+
+            <div class="container-lg">
+                <div class="row mb-4 ">
+                    <div class="text-center col-lg-5 col-12  mt-4 ">
+                        <img src="/images/fridaCensura.jpg" alt="Frida kahlo versão barbie com censura nos olhos" height="250px">
+                    </div>
+
+                    <div class="col-lg-7 col-12 pe-3 mt-4 ">
+                        <a target="_blank" class="saibaMais" href="https://capricho.abril.com.br/comportamento/frases-da-frida-kahlo-sobre-os-misterios-da-vida-e-do-amor/">
+                            <h3 class="mb-4 col subtitulo">Atriz lamenta criação de Barbie Frida Kahlo: ‘como puderam?’</h3>
+                        </a>
+                        <div class="col">
+                            <p>
+                                Em 2002, Salma Hayek deu vida à personagem Frida Kahlo no filme Frida. O longa foi bastante aclamado pela crítica e
+                                ganhou, em 2003, o Oscar de Melhor Maquiagem e Penteados, e rendeu à mexicana, no mesmo ano, o prêmio de Melhor Atriz no
+                                Imagen Awards. Logo, parece que Salma pode se manifestar sobre a polêmica do momento: a criação e a comercialização da
+                                Barbie Frida Kahlo.                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
         </div>
     </main>
 
     <footer>
-        <div class="footerExterna">
-            <div class="footerInterna">
-                <h3>Cayo Victor</h3>
-                <div class="divGit">
-                    <img src="/images/icons8-github.svg" alt="icon do github"> 
-                    <a href="https://github.com/xCayoVictor" target="_blank">Github</a>
-                </div>
-            </div>
-            <div class="footerInterna">
-                <h3>Jean Backhan</h3>
-                <div class="divGit">
-                    <img src="/images/icons8-github.svg" alt="icon do github"> 
-                    <a href="">Github</a>
+        <div class="container-fluid bg-dark">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="text-center col-md-6 col-12 mt-4 ">
+                        <div class="col">
+                            <h4>Cayo Victor</h4>
+                        </div>
+                        <div class="col">
+                            <img src="/images/icons8-github.svg" alt="icon do github"> 
+                            <a class="aGithub" href="https://github.com/xCayoVictor" target="_blank">Github</a>
+                        </div>                   
+                    </div>
+    
+                    <div class="text-center col-md-6 col-12 mt-4 ">
+                        <div class="col">
+                            <h4>Jean Backhan</h4>
+                        </div>
+                        <div class="col">
+                            <img src="/images/icons8-github.svg" alt="icon do github"> 
+                            <a class="aGithub" href="https://github.com/jeanbeckhan" target="_blank">Github</a>
+                        </div>                   
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="footerCopyright">
+        <div class="container-fluid text-center bg-dark footerCopyright">
             &#169
             2023 - Centec - TIV 01/23
         </div>
     </footer>
+
+    <!-- Não alterar abaixo-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
 </body>
 </html>

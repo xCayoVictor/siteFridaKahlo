@@ -1,0 +1,24 @@
+.principal a{
+
+    color: blue;
+    
+    } 
+    
+    
+    .f2 {
+    
+        margin-left: 250px;
+    } 
+    .Inf {
+        margin-left: 200px;
+        margin-top: 30px;
+    float: right;
+     margin-left: 20px;
+    }.f {
+        float: right;
+        margin-right: 20px;
+      }
+      
+      .Inf {
+        overflow: hidden;
+      }

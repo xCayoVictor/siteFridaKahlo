@@ -1,0 +1,60 @@
+
+/* Usado para desabilitar spinbutton(seta para aumentar e diminuir valor) nos input do tipo number*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+a:hover{
+    color: white;
+}
+
+
+
+.dadosPessoais input{
+    background-color: rgba(211, 211, 211, 0.685);
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.dadosPessoais select{
+    background-color: rgba(211, 211, 211, 0.685);
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.endereco input{
+    background-color: rgba(211, 211, 211, 0.685);
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.informacoes input{
+    background-color: rgba(211, 211, 211, 0.685);
+    width: 100%;
+}
+
+.endereco .error{
+    border-radius: 5px;
+    border: 1px solid red;
+    background-color: rgb(224, 140, 140);
+}
+
+
+#areaTexto{
+    background-color: rgba(211, 211, 211, 0.685);
+    width: 99%;
+    min-height: 150px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
