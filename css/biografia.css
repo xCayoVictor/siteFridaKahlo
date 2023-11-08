@@ -1,24 +1,23 @@
-.principal a{
+.imgfrida{
+  width: 320px;
+  height: 380px;
+  border-radius: 50%;
+  border: 10px double  black;
+}
 
-    color: blue;
-    
-    } 
-    
-    
-    .f2 {
-    
-        margin-left: 250px;
-    } 
-    .Inf {
-        margin-left: 200px;
-        margin-top: 30px;
-    float: right;
-     margin-left: 20px;
-    }.f {
-        float: right;
-        margin-right: 20px;
-      }
-      
-      .Inf {
-        overflow: hidden;
-      }
+p{
+  font-size: 15px;
+  padding-bottom: 0em;
+  text-indent: 3ch;
+  color: #3a3a3a;
+  text-align: justify;
+}
+
+.faleConosco{
+  margin-top: 50px;
+} 
+
+a{
+  text-decoration: underline;
+  color: #3a3a3a;
+}
